@@ -27,8 +27,6 @@
 .profile__edit-btn {
   margin-top: auto;
   padding: 0;
-  width: 107px;
-  height: 16px;
   gap: 8px;
   opacity: 0.7;
   display: flex;
@@ -80,4 +78,47 @@
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    max-width: 288px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .profile__edit-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .profile__add-btn {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .profile__avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding-bottom: 12px;
+  }
+
+  .profile__name {
+    width: auto;
+    text-align: center;
+    padding-bottom: 6px;
+    font-size: 20px;
+  }
+
+  .profile__description {
+    width: auto;
+    text-align: center;
+    padding-bottom: 32px;
+    margin: 0;
+  }
 }
