@@ -58,7 +58,6 @@
 }
 
 .profile__edit-btn:hover {
-  color: #212121;
   opacity: 100%;
   cursor: pointer;
 }
@@ -103,7 +102,7 @@
   -webkit-box-orient: vertical;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 611px) {
   .profile {
     flex-direction: column;
     max-width: 288px;
@@ -115,7 +114,6 @@
   .profile__edit-btn {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
   }
 
   .profile__add-btn {
@@ -128,20 +126,17 @@
     width: 80px;
     height: 80px;
     margin: 0;
-    padding-bottom: 12px;
   }
 
   .profile__name {
     width: auto;
     text-align: center;
-    padding-bottom: 6px;
     font-size: 20px;
   }
 
   .profile__description {
     width: auto;
     text-align: center;
-    padding-bottom: 32px;
     margin: 0;
   }
 }

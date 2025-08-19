@@ -1,7 +1,7 @@
 # Project 3: Adaptive web design
 
 This project is an example of a responsive webpage that will adaplt to different devices and screen sizes.
-https://github.com/reggie-owens/se_project_spots.git
+https://reggie-owens.github.io/se_project_spots/
 download and embed fonts used grid layout and flexbox to arange and style the cards used media queries for mobile and tablet view used technique for handling text overflow working with figma.
 
 - Intro
